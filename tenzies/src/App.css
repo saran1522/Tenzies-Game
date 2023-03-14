@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+.dom {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#90e0ef, #00b4d8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 450px;
+  width: 600px;
+  background-color: #1d3557;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+h3 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  width: 300px;
+  font-size: 17px;
+  color: rgb(223, 222, 222);
+  line-height: 25px;
+  text-align: center;
+  font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.dieContainer {
+  height: 300px;
+  width: 500px;
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.dieBox {
+  height: 200px;
+  width: 500px;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  place-items: center;
+  margin-bottom: 15px;
+}
+
+.dieSquare {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 28px rgb(6, 7, 62);
+  ;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(93, 97, 146);
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.generate-btn {
+  height: 50px;
+  width: 140px;
+  background-color: rgb(59, 33, 230);
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  box-shadow: 2px 2px 20px rgb(31, 32, 84);
+  cursor: pointer;
+  color: white;
+}
